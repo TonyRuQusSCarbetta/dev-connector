@@ -2,6 +2,9 @@ const express = require("express");
 const router = express.Router();
 //So now when we create a route, instead of doing app.get() ... we do router.get  (note that .get can be .post or any request)
 
+// @route    GET REQUEST to api/posts/test
+// @desc     Tests posts route
+// @access   Public
 router.get("/test", (req, res) => res.json({ msg: "Posts Route Works" }));
 
 //we must export the router for the server.js file to pick it up
