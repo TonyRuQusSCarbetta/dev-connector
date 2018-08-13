@@ -1,6 +1,6 @@
 module.exports = {
   mongoURI:
-    "mongodb://CarbettaCoding:Kingston2012@ds035846.mlab.com:35846/devconnector"
+    "mongodb://<username>:<password>@ds035846.mlab.com:35846/devconnector"
 };
 
 //see authorized user for credentials
